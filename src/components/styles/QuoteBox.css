@@ -15,6 +15,7 @@
   padding: 1rem;
   border-radius: 1.5rem;
   font-size: 1.5rem;
+  backdrop-filter: blur(20px);
 }
 .quoteBox-info {
   background-color: #ffff;
@@ -30,14 +31,15 @@
 .quoteBox-button {
   display: inline-block;
   padding: 1rem 1.5rem;
-  background: rgba(173, 216, 230, 0.507);
+  background-color: #ffffff13;
   border-radius: 1rem;
-  box-shadow: 0 0 1rem lightblue;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.836);
   font-size: 1rem;
   color: #323946;
   font-weight: 600;
   transition: 0.5s ease;
   cursor: pointer;
+  backdrop-filter: blur(20px);
 }
 
 .quoteBox-button:hover {
@@ -55,4 +57,5 @@
   min-height: 30px;
   min-width: 200px;
   max-width: 200px;
+  backdrop-filter: blur(20px);
 }
